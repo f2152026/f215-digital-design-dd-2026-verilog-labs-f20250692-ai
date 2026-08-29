@@ -17,20 +17,20 @@ module dut(
     //.cout(cout)
  // );
 
-   //cla4 U_IMPL (
-    // .a(a),
-    // .b(b),
-   //  .cin(cin),
-     //.sum(sum),
-    // .cout(cout)
-  // );
-
-  cla4_dataflow U_IMPL (
+   cla4 U_IMPL (
      .a(a),
      .b(b),
      .cin(cin),
      .sum(sum),
      .cout(cout)
    );
+
+  //cla4_dataflow U_IMPL (
+  //   .a(a),
+  //   .b(b),
+  //   .cin(cin),
+  //   .sum(sum),
+  //   .cout(cout)
+  // );
 
 endmodule
